@@ -7,7 +7,7 @@ class Service {
 
     public function __construct() {
         $this->servicio = array();
-        $this->db = new PDO('mysql:host=localhost;dbname=mvc_ejemplo', "root", "");
+        $this->db = new PDO('mysql:host=localhost;dbname=mvc_ejemplo', "root", "passwd");
     }
 
     private function setNames() {
